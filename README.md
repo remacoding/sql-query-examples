@@ -65,4 +65,4 @@ This dataset is used for the purpose of learning SQL language for data analysis.
 - **SQL Lesson 23:** Views, and more...
 
 
-Learn more about these lessons on SQLBolt.com
+Learn more about these lessons on https://SQLBolt.com
