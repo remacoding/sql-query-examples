@@ -36,7 +36,7 @@ Class: Diagnosis of heart disease (1 = heart disease; 0 = normal)
 Learn more about the dataset on: https://www.kaggle.com/datasets/mexwell/heart-disease-dataset/data
 
 ## Usage
-This dataset is used for the purpose of learning SQL language for data analysis. Below are some concepts:
+This dataset is used for the purpose of learning SQL language for data analysis. Below are some concepts
 
 ### SQL Learning Path
 
@@ -63,6 +63,5 @@ This dataset is used for the purpose of learning SQL language for data analysis.
 - **SQL Lesson 21:** Foreign Keys
 - **SQL Lesson 22:** Dates and Times
 - **SQL Lesson 23:** Views, and more...
-
 
 Learn more about these lessons on https://SQLBolt.com
