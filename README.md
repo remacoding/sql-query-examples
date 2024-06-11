@@ -38,8 +38,7 @@ Learn more about the dataset on: https://www.kaggle.com/datasets/mexwell/heart-d
 ## Usage
 This dataset is used for the purpose of learning SQL language for data analysis. Below are some concepts:
 
-Learning SQL commands:
-# SQL Learning Path
+### SQL Learning Path
 
 - **SQL Lesson 1:** SELECT queries
 - **SQL Lesson 2:** Queries with constraints (Pt. 1)
