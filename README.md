@@ -17,7 +17,7 @@ The combined dataset consists of 1190 instances and 12 common features. These fe
 File Size: 408 kB
 Instances: 1190
 Features: 12
-## Features s
+## Features
 
 - **Age:** Age of the patient
 - **Sex:** Gender of the patient (1 = male; 0 = female)
