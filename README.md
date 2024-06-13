@@ -3,6 +3,7 @@
 This repository contains the comprehensive Heart Disease Dataset, created by combining five popular heart disease datasets. This combined dataset is the largest of its kind and is designed to advance research in coronary artery disease (CAD) through machine learning and data mining techniques, potentially improving clinical diagnosis and early treatment.
 
 ## Dataset Overview
+
 The Heart Disease Dataset includes data from the following five sources:
 
 Cleveland
@@ -10,13 +11,17 @@ Hungarian
 Switzerland
 Long Beach VA
 Statlog (Heart) Data Set
+
 ### Features
+
 The combined dataset consists of 1190 instances and 12 common features. These features are essential for building predictive models and conducting data analysis for heart disease research.
 
 ### Size
+
 File Size: 408 kB
 Instances: 1190
 Features: 12
+
 ## Features
 
 - **Age:** Age of the patient
@@ -30,44 +35,51 @@ Features: 12
 - **Exercise Induced Angina (exang):** Exercise induced angina (1 = yes; 0 = no)
 - **ST Depression Induced by Exercise Relative to Rest (oldpeak):** ST depression induced by exercise relative to rest
 - **Slope of the Peak Exercise ST Segment (slope):** Slope of the peak exercise ST segment (0-2)
-- **Class:** Diagnosis of heart disease (1 = heart disease; 0 = normal)
+- **Class (target column):** Diagnosis of heart disease (1 = heart disease; 0 = normal)
 
 ## Description of Nominal Attributes
 
 - **Sex:**
+
   - 1 = male
   - 0 = female
 
 - **Chest Pain Type:**
+
   - Value 1: typical angina
   - Value 2: atypical angina
   - Value 3: non-anginal pain
   - Value 4: asymptomatic
 
 - **Fasting Blood Sugar:**
+
   - Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
 
 - **Resting Electrocardiogram Results:**
+
   - Value 0: normal
   - Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
   - Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 
 - **Exercise Induced Angina:**
+
   - 1 = yes
   - 0 = no
 
 - **The Slope of the Peak Exercise ST Segment:**
+
   - Value 1: upsloping
   - Value 2: flat
   - Value 3: downsloping
 
-- **Class:**
+- **Class (target column):**
   - 1 = heart disease
   - 0 = normal
 
 Learn more about the dataset on: https://www.kaggle.com/datasets/mexwell/heart-disease-dataset/data
 
-## Usage
+## Usage Of The Dataset
+
 This dataset is used for the purpose of learning SQL language for data analysis. Below are some concepts
 
 ### SQL Learning Path
