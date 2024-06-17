@@ -6,21 +6,21 @@ This repository contains the comprehensive Heart Disease Dataset, created by com
 
 The Heart Disease Dataset includes data from the following five sources:
 
-Cleveland
-Hungarian
-Switzerland
-Long Beach VA
-Statlog (Heart) Data Set
+1. **Cleveland**
+2. **Hungarian**
+3. **Switzerland**
+4. **Long Beach VA**
+5. **Statlog (Heart) Data Set**
 
 ### Features
 
-The combined dataset consists of 1190 instances and 12 common features. These features are essential for building predictive models and conducting data analysis for heart disease research.
+The combined dataset consists of **1190 instances** and **12 common features**. These features are essential for building predictive models and conducting data analysis for heart disease research.
 
 ### Size
 
-File Size: 408 kB
-Instances: 1190
-Features: 12
+- **File Size:** 408 kB
+- **Instances:** 1190
+- **Features:** 12
 
 ## Features
 
@@ -40,34 +40,28 @@ Features: 12
 ## Description of Nominal Attributes
 
 - **Sex:**
-
   - 1 = male
   - 0 = female
 
 - **Chest Pain Type:**
-
   - Value 1: typical angina
   - Value 2: atypical angina
   - Value 3: non-anginal pain
   - Value 4: asymptomatic
 
 - **Fasting Blood Sugar:**
-
   - Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)
 
 - **Resting Electrocardiogram Results:**
-
   - Value 0: normal
   - Value 1: having ST-T wave abnormality (T wave inversions and/or ST elevation or depression of > 0.05 mV)
   - Value 2: showing probable or definite left ventricular hypertrophy by Estes' criteria
 
 - **Exercise Induced Angina:**
-
   - 1 = yes
   - 0 = no
 
 - **The Slope of the Peak Exercise ST Segment:**
-
   - Value 1: upsloping
   - Value 2: flat
   - Value 3: downsloping
@@ -76,36 +70,36 @@ Features: 12
   - 1 = heart disease
   - 0 = normal
 
-Learn more about the dataset on: https://www.kaggle.com/datasets/mexwell/heart-disease-dataset/data
+Learn more about the dataset on [Kaggle](https://www.kaggle.com/datasets/mexwell/heart-disease-dataset/data).
 
 ## Usage Of The Dataset
 
-This dataset is used for the purpose of learning SQL language for data analysis. Below are some concepts
+This dataset is used for the purpose of learning SQL language for data analysis.
 
 ### SQL Learning Path
 
-- **SQL Lesson 1:** SELECT queries
-- **SQL Lesson 2:** Queries with constraints (Pt. 1)
-- **SQL Lesson 3:** Queries with constraints (Pt. 2)
-- **SQL Lesson 4:** Filtering and sorting Query results
-- **SQL Review:** Simple SELECT Queries
-- **SQL Lesson 6:** Multi-table queries with JOINs
-- **SQL Lesson 7:** OUTER JOINs
-- **SQL Lesson 8:** A short note on NULLs
-- **SQL Lesson 9:** Queries with expressions
-- **SQL Lesson 10:** Queries with aggregates (Pt. 1)
-- **SQL Lesson 11:** Queries with aggregates (Pt. 2)
-- **SQL Lesson 12:** Order of execution of a Query
-- **SQL Lesson 13:** Inserting rows
-- **SQL Lesson 14:** Updating rows
-- **SQL Lesson 15:** Deleting rows
-- **SQL Lesson 16:** Creating tables
-- **SQL Lesson 17:** Altering tables
-- **SQL Lesson 18:** Dropping tables
-- **SQL Lesson 19:** Subqueries
-- **SQL Lesson 20:** Set operations
-- **SQL Lesson 21:** Foreign Keys
-- **SQL Lesson 22:** Dates and Times
-- **SQL Lesson 23:** Views, and more...
+1. **SQL Lesson 1:** SELECT queries
+2. **SQL Lesson 2:** Queries with constraints (Pt. 1)
+3. **SQL Lesson 3:** Queries with constraints (Pt. 2)
+4. **SQL Lesson 4:** Filtering and sorting Query results
+5. **SQL Review:** Simple SELECT Queries
+6. **SQL Lesson 6:** Multi-table queries with JOINs
+7. **SQL Lesson 7:** OUTER JOINs
+8. **SQL Lesson 8:** A short note on NULLs
+9. **SQL Lesson 9:** Queries with expressions
+10. **SQL Lesson 10:** Queries with aggregates (Pt. 1)
+11. **SQL Lesson 11:** Queries with aggregates (Pt. 2)
+12. **SQL Lesson 12:** Order of execution of a Query
+13. **SQL Lesson 13:** Inserting rows
+14. **SQL Lesson 14:** Updating rows
+15. **SQL Lesson 15:** Deleting rows
+16. **SQL Lesson 16:** Creating tables
+17. **SQL Lesson 17:** Altering tables
+18. **SQL Lesson 18:** Dropping tables
+19. **SQL Lesson 19:** Subqueries
+20. **SQL Lesson 20:** Set operations
+21. **SQL Lesson 21:** Foreign Keys
+22. **SQL Lesson 22:** Dates and Times
+23. **SQL Lesson 23:** Views
 
-Learn more about these lessons on https://SQLBolt.com
+Learn more about these lessons on [SQLBolt](https://sqlbolt.com).
