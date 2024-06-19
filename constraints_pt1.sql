@@ -60,6 +60,14 @@ where
     and `max heart rate` > 150;
 
 -- 7. Find the count of patients grouped by their chest pain type who have a fasting blood sugar level of 1.
+SELECT
+    COUNT(*) as total_count
+from
+    heartdisease
+WHERE
+    `fasting blood sugar` = 1
+GROUP BY
+    `chest pain type`;
 
 -- 8. Find the youngest patient with a resting blood pressure greater than 140 and a cholesterol level over 250.
 select
@@ -69,3 +77,32 @@ from
 where
     `resting bp s` > 140
     and cholesterol > 250;
+
+-- 9. Find the average age, maximum heart rate, and cholesterol level for each sex, where patients have a resting ECG result of 2.
+SELECT
+    sex,
+    AVG(age) AS average_age,
+    MAX(`max heart rate`) as max_heart_rate,
+    AVG(cholesterol) as avg_cholesterol
+from
+    heartdisease
+WHERE
+    `resting ecg` = 2
+GROUP BY
+    sex;
+
+-- 10. Find the average age, maximum heart rate, and cholesterol level for patients with heart disease, grouped by chest pain type, and having a resting blood pressure greater than 130.
+SELECT
+    `chest pain type`,
+    AVG(age) AS average_age,
+    MAX(`max heart rate`) as max_heart_rate,
+    AVG(cholesterol) as avg_cholesterol
+from
+    heartdisease
+WHERE
+    target = 1
+    and `resting bp s` > 130
+GROUP BY
+    `chest pain type`
+ORDER BY
+    `chest pain type`;

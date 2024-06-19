@@ -1,4 +1,5 @@
 -- This file contains 10 examples of SELECT statements to demonstrate SQL querying capabilities.
+
 -- Querying all columns for reference data.
 SELECT
     *
