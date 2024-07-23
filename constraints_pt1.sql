@@ -106,3 +106,4 @@ GROUP BY
     `chest pain type`
 ORDER BY
     `chest pain type`;
+    

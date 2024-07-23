@@ -101,4 +101,4 @@ from
     heartdisease
 where
     `chest pain type` = 3
-    and age BETWEEN 40 and 50;
+    and age BETWEEN 40 and 50;-.
