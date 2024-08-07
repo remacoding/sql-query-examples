@@ -26,7 +26,7 @@ The combined dataset consists of **1190 instances** and **12 common features**. 
 
 - **Age:** Age of the patient
 - **Sex:** Gender of the patient (1 = male; 0 = female)
-- **Chest Pain Type (cp):** Type of chest pain experienced by the patient (0-3)
+- **Chest Pain Type (cp):** Type of chest pain experienced by the patient (1-4)
 - **Resting Blood Pressure (trestbps):** Resting blood pressure in mm Hg
 - **Serum Cholesterol (chol):** Serum cholesterol level in mg/dl
 - **Fasting Blood Sugar (fbs):** Fasting blood sugar > 120 mg/dl (1 = true; 0 = false)

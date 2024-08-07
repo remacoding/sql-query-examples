@@ -1,3 +1,4 @@
+-- SQL Lesson 2: Queries with constraints (Pt. 1)
 -- This file contains 10 SQL queries demonstrating the use of constraints to filter and retrieve specific data FROM tables.
 -- Querying all columns for reference data.
 SELECT *
@@ -7,6 +8,7 @@ FROM heartdisease;
 SELECT *
 FROM heartdisease
 WHERE age IN (50);
+
 -- 2. Find patients with cholesterol levels between 200 and 300.
 SELECT *
 FROM heartdisease

@@ -1,3 +1,4 @@
+-- SQL Lesson 3: Queries with constraints (Pt. 2)
 -- This file contains 10 SQL queries demonstrating the use of constraints to filter and retrieve specific data from tables.
 -- Querying all columns for reference data.
 SELECT *
